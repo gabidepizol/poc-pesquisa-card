@@ -1,0 +1,24 @@
+{
+  "name": "poc-pesquisa-card",
+  "version": "1.0.0",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": "git@github.com:gabidepizol/poc-pesquisa-card.git",
+  "author": "gabidepizol <gabidepizol@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^9.1.0",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
